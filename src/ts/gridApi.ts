@@ -108,6 +108,16 @@ export class GridApi {
             console.warn(`ag-Grid: you can only use a datasource when gridOptions.rowModelType is '${Constants.ROW_MODEL_TYPE_VIEWPORT}'`)
         }
     }
+
+    public reloadPage() {
+        if (this.gridOptionsWrapper.isRowModelPagination()) {
+            this.paginationController.reloadPage();
+        } else if (this.gridOptionsWrapper.isRowModelVirtual()) {
+            (<VirtualPageRowModel>this.rowModel).reloadPage();
+        } else {
+            console.warn(`ag-Grid: you can only use reloadPage() when gridOptions.rowModelType is '${Constants.ROW_MODEL_TYPE_VIRTUAL}' or '${Constants.ROW_MODEL_TYPE_PAGINATION}'`)
+        }
+    }
     
     public setRowData(rowData: any[]) {
         if (_.missing(this.inMemoryRowModel)) { console.log('cannot call setRowData unless using normal row model') }
