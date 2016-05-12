@@ -270,6 +270,10 @@ export class PaginationController {
             that.inMemoryRowModel.setRowData([], true);
         }
     }
+    
+    public reloadPage() {
+        this.loadPage();
+    }
 
     private isCallDaemon(versionCopy: any) {
         return versionCopy !== this.callVersion;
