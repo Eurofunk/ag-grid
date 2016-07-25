@@ -102,6 +102,10 @@ export class VirtualPageRowModel implements IRowModel {
         this.foundMaxRow = false;
 
         this.resetCache();
+		
+		if (endPage < 0) {
+            this.loadPage(startPage);
+        }
 
         for (let page = startPage; page <= endPage; page++) {
             this.loadPage(page);
