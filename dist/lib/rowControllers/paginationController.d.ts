@@ -1,4 +1,4 @@
-// Type definitions for ag-grid v4.2.5
+// Type definitions for ag-grid v4.2.5-4c89157dfe91c1f392e9a8bdf09c9c12cbc95ef5-ef
 // Project: http://www.ag-grid.com/
 // Definitions by: Niall Crosby <https://github.com/ceolter/>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
@@ -38,6 +38,7 @@ export declare class PaginationController {
     private pageLoaded(rows, lastRowIndex);
     private updateRowLabels();
     private loadPage();
+    reloadPage(): void;
     private isCallDaemon(versionCopy);
     private onBtNext();
     private onBtPrevious();

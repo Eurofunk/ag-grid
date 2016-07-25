@@ -1,6 +1,6 @@
 /**
  * ag-grid - Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components
- * @version v4.2.5
+ * @version v4.2.5-4c89157dfe91c1f392e9a8bdf09c9c12cbc95ef5-ef
  * @link http://www.ag-grid.com/
  * @license MIT
  */
@@ -78,6 +78,17 @@ var GridApi = (function () {
         }
         else {
             console.warn("ag-Grid: you can only use a datasource when gridOptions.rowModelType is '" + constants_1.Constants.ROW_MODEL_TYPE_VIEWPORT + "'");
+        }
+    };
+    GridApi.prototype.reloadPage = function () {
+        if (this.gridOptionsWrapper.isRowModelPagination()) {
+            this.paginationController.reloadPage();
+        }
+        else if (this.gridOptionsWrapper.isRowModelVirtual()) {
+            this.rowModel.reloadPage();
+        }
+        else {
+            console.warn("ag-Grid: you can only use reloadPage() when gridOptions.rowModelType is '" + constants_1.Constants.ROW_MODEL_TYPE_VIRTUAL + "' or '" + constants_1.Constants.ROW_MODEL_TYPE_PAGINATION + "'");
         }
     };
     GridApi.prototype.setRowData = function (rowData) {

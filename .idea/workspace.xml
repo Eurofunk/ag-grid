@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c095e717-b741-4f4f-af65-53758c635804" name="Default" comment="Moved compiling of Rows after processRowPostCreate Callback">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/rowRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/rowRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/componentUtil.d.ts" afterPath="$PROJECT_DIR$/dist/lib/components/componentUtil.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/checkboxSelectionComponent.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/checkboxSelectionComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRendererFactory.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRendererFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridApi.d.ts" afterPath="$PROJECT_DIR$/dist/lib/gridApi.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/context/context.js" afterPath="$PROJECT_DIR$/dist/lib/context/context.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupEditorWrapper.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupEditorWrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/flattenStage.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/flattenStage.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/moveColumnController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/moveColumnController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/popupService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/widgets/popupService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/componentUtil.js" afterPath="$PROJECT_DIR$/dist/lib/components/componentUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/columnGroupChild.js" afterPath="$PROJECT_DIR$/dist/lib/entities/columnGroupChild.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/templateService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/templateService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/verticalStack.js" afterPath="$PROJECT_DIR$/dist/lib/layout/verticalStack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/menuList.d.ts" afterPath="$PROJECT_DIR$/dist/lib/widgets/menuList.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ag-grid.min.js" afterPath="$PROJECT_DIR$/dist/ag-grid.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnController.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/filterStage.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/filterStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ag-grid.min.noStyle.js" afterPath="$PROJECT_DIR$/dist/ag-grid.min.noStyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/colDef.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/colDef.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditorFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditorFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroupChild.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroupChild.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroup.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroup.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRowModel.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRowModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/floatingRowModel.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/floatingRowModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/pivotService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/pivotService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iClipboardService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iClipboardService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/templateService.js" afterPath="$PROJECT_DIR$/dist/lib/templateService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridRow.js" afterPath="$PROJECT_DIR$/dist/lib/entities/gridRow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnChangeEvent.js" afterPath="$PROJECT_DIR$/dist/lib/columnChangeEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/autoWidthCalculator.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/autoWidthCalculator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/misc/focusService.js" afterPath="$PROJECT_DIR$/dist/lib/misc/focusService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroup.js" afterPath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderGroupCell.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderGroupCell.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridRow.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/gridRow.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/groupInstanceIdCreator.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/groupInstanceIdCreator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iViewportDatasource.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iViewportDatasource.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/selectCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/selectCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-bootstrap.css" afterPath="$PROJECT_DIR$/dist/styles/theme-bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnUtils.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnUtils.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/paginationController.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/paginationController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderGroupCell.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderGroupCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/groupInstanceIdCreator.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/groupInstanceIdCreator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupTextCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupTextCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/borderLayout.js" afterPath="$PROJECT_DIR$/dist/lib/layout/borderLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/autoWidthCalculator.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/autoWidthCalculator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnUtils.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/filterManager.js" afterPath="$PROJECT_DIR$/dist/lib/filter/filterManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnKeyCreator.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnKeyCreator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridCore.js" afterPath="$PROJECT_DIR$/dist/lib/gridCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/masterSlaveService.js" afterPath="$PROJECT_DIR$/dist/lib/masterSlaveService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRendererFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRendererFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridCell.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/gridCell.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/textAndNumberFilterParameters.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/textAndNumberFilterParameters.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/horizontalDragService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/horizontalDragService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/agGridWebComponent.d.ts" afterPath="$PROJECT_DIR$/dist/lib/components/agGridWebComponent.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/renderedRow.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/renderedRow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iEventEmitter.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iEventEmitter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/textFilter.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/textFilter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/checkboxSelectionComponent.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/checkboxSelectionComponent.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridOptionsWrapper.d.ts" afterPath="$PROJECT_DIR$/dist/lib/gridOptionsWrapper.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/filterStage.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/filterStage.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/utils.d.ts" afterPath="$PROJECT_DIR$/dist/lib/utils.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/clientExports.js" afterPath="$PROJECT_DIR$/dist/lib/clientExports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/expressionService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/expressionService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/columnGroup.js" afterPath="$PROJECT_DIR$/dist/lib/entities/columnGroup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/renderedCell.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/renderedCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateShowChangeCellRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateShowChangeCellRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/selectCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/selectCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/balancedColumnTreeBuilder.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/balancedColumnTreeBuilder.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/context/context.d.ts" afterPath="$PROJECT_DIR$/dist/lib/context/context.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/popupService.js" afterPath="$PROJECT_DIR$/dist/lib/widgets/popupService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerContainer.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/valueService.js" afterPath="$PROJECT_DIR$/dist/lib/valueService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRangeController.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRangeController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/standardMenu.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/standardMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridOptions.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/gridOptions.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/textCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/textCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/csvCreator.d.ts" afterPath="$PROJECT_DIR$/dist/lib/csvCreator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/focusedCellController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/focusedCellController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridApi.js" afterPath="$PROJECT_DIR$/dist/lib/gridApi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/paginationController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/paginationController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/selectionController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/selectionController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/setFilterParameters.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/setFilterParameters.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iMenuFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iMenuFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragService.js" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/rowRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/rowRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/grid.d.ts" afterPath="$PROJECT_DIR$/dist/lib/grid.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/iRenderedHeaderElement.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/iRenderedHeaderElement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupTextCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupTextCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/expressionService.js" afterPath="$PROJECT_DIR$/dist/lib/expressionService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-fresh.css" afterPath="$PROJECT_DIR$/dist/styles/theme-fresh.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnChangeEvent.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnChangeEvent.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/menuList.js" afterPath="$PROJECT_DIR$/dist/lib/widgets/menuList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-dark.css" afterPath="$PROJECT_DIR$/dist/styles/theme-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/filter.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/filter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iInMemoryRowModel.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iInMemoryRowModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/pivotService.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/pivotService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/displayedGroupCreator.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/displayedGroupCreator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/valueFormatterService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/valueFormatterService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragAndDropService.js" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragAndDropService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRowNodeStage.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRowNodeStage.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/clientExports.d.ts" afterPath="$PROJECT_DIR$/dist/lib/clientExports.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/oldToolPanelDragAndDropService.js" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/oldToolPanelDragAndDropService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/flattenStage.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/flattenStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/sortController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/sortController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridOptions.js" afterPath="$PROJECT_DIR$/dist/lib/entities/gridOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iMenuFactory.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iMenuFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/functions.d.ts" afterPath="$PROJECT_DIR$/dist/lib/functions.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/cellNavigationService.js" afterPath="$PROJECT_DIR$/dist/lib/cellNavigationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/iRenderedHeaderElement.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/iRenderedHeaderElement.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/gridCell.js" afterPath="$PROJECT_DIR$/dist/lib/entities/gridCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragAndDropService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragAndDropService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iCompFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iCompFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/filterManager.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/filterManager.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/borderLayout.d.ts" afterPath="$PROJECT_DIR$/dist/lib/layout/borderLayout.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridPanel/gridPanel.js" afterPath="$PROJECT_DIR$/dist/lib/gridPanel/gridPanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroupChild.js" afterPath="$PROJECT_DIR$/dist/lib/entities/originalColumnGroupChild.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iInMemoryRowModel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iInMemoryRowModel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/column.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/column.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iClipboardService.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iClipboardService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridCore.d.ts" afterPath="$PROJECT_DIR$/dist/lib/gridCore.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/oldToolPanelDragAndDropService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/oldToolPanelDragAndDropService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/eventService.js" afterPath="$PROJECT_DIR$/dist/lib/eventService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/dateCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/dateCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/svgFactory.js" afterPath="$PROJECT_DIR$/dist/lib/svgFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/logger.js" afterPath="$PROJECT_DIR$/dist/lib/logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/rowNode.js" afterPath="$PROJECT_DIR$/dist/lib/entities/rowNode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/cellNavigationService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/cellNavigationService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/events.js" afterPath="$PROJECT_DIR$/dist/lib/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/misc/focusService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/misc/focusService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/groupCellRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/groupCellRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowModel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowModel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowModel.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/menuItemComponent.d.ts" afterPath="$PROJECT_DIR$/dist/lib/widgets/menuItemComponent.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/tabbedLayout.d.ts" afterPath="$PROJECT_DIR$/dist/lib/layout/tabbedLayout.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/constants.js" afterPath="$PROJECT_DIR$/dist/lib/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iContextMenuFactory.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iContextMenuFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/rowNode.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/rowNode.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/valueFormatterService.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/valueFormatterService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/moveColumnController.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/moveColumnController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/balancedColumnTreeBuilder.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/balancedColumnTreeBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/setFilterParameters.js" afterPath="$PROJECT_DIR$/dist/lib/filter/setFilterParameters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/grid.js" afterPath="$PROJECT_DIR$/dist/lib/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/component.js" afterPath="$PROJECT_DIR$/dist/lib/widgets/component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/columnGroup.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/columnGroup.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderCell.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderCell.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/virtualPageRowModel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/virtualPageRowModel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/svgFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/svgFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/masterSlaveService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/masterSlaveService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iCompFactory.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iCompFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/focusedCellController.js" afterPath="$PROJECT_DIR$/dist/lib/focusedCellController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/displayedGroupCreator.js" afterPath="$PROJECT_DIR$/dist/lib/columnController/displayedGroupCreator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRowNodeStage.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRowNodeStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ag-grid.noStyle.js" afterPath="$PROJECT_DIR$/dist/ag-grid.noStyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderCell.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/renderedHeaderCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/filter.js" afterPath="$PROJECT_DIR$/dist/lib/filter/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/numberFilter.d.ts" afterPath="$PROJECT_DIR$/dist/lib/filter/numberFilter.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/dateCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/dateCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/column.js" afterPath="$PROJECT_DIR$/dist/lib/entities/column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/menuItemComponent.js" afterPath="$PROJECT_DIR$/dist/lib/widgets/menuItemComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/agGridNg1.d.ts" afterPath="$PROJECT_DIR$/dist/lib/components/agGridNg1.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/ag-grid.css" afterPath="$PROJECT_DIR$/dist/styles/ag-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/sortStage.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/sortStage.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/iCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/iCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-common.css" afterPath="$PROJECT_DIR$/dist/styles/theme-common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupSelectCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupSelectCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateSlideCellRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateSlideCellRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRowModel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRowModel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/utils.js" afterPath="$PROJECT_DIR$/dist/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/groupCellRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/groupCellRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditorFactory.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditorFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/renderedCell.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/renderedCell.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerTemplateLoader.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerTemplateLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/csvCreator.js" afterPath="$PROJECT_DIR$/dist/lib/csvCreator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/iCellEditor.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/iCellEditor.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridPanel/mouseEventService.js" afterPath="$PROJECT_DIR$/dist/lib/gridPanel/mouseEventService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iViewportDatasource.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iViewportDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-material.css" afterPath="$PROJECT_DIR$/dist/styles/theme-material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRendererService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRendererService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridPanel/mouseEventService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/gridPanel/mouseEventService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/iCellRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/iCellRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/theme-blue.css" afterPath="$PROJECT_DIR$/dist/styles/theme-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/selectionController.js" afterPath="$PROJECT_DIR$/dist/lib/selectionController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/floatingRowModel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/floatingRowModel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/horizontalDragService.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/horizontalDragService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/colDef.js" afterPath="$PROJECT_DIR$/dist/lib/entities/colDef.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/widgets/component.d.ts" afterPath="$PROJECT_DIR$/dist/lib/widgets/component.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateSlideCellRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateSlideCellRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/cssClassApplier.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/cssClassApplier.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/renderedRow.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/renderedRow.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/eventService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/eventService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/textFilter.js" afterPath="$PROJECT_DIR$/dist/lib/filter/textFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/logger.d.ts" afterPath="$PROJECT_DIR$/dist/lib/logger.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iRangeController.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iRangeController.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridOptionsWrapper.js" afterPath="$PROJECT_DIR$/dist/lib/gridOptionsWrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupEditorWrapper.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupEditorWrapper.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/standardMenu.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/standardMenu.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/textCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/textCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/constants.d.ts" afterPath="$PROJECT_DIR$/dist/lib/constants.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/sortController.js" afterPath="$PROJECT_DIR$/dist/lib/sortController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/iCellRenderer.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/iCellRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/virtualPageRowModel.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/virtualPageRowModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/functions.js" afterPath="$PROJECT_DIR$/dist/lib/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/textAndNumberFilterParameters.js" afterPath="$PROJECT_DIR$/dist/lib/filter/textAndNumberFilterParameters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/agGridWebComponent.js" afterPath="$PROJECT_DIR$/dist/lib/components/agGridWebComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/gridPanel/gridPanel.d.ts" afterPath="$PROJECT_DIR$/dist/lib/gridPanel/gridPanel.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/sortStage.js" afterPath="$PROJECT_DIR$/dist/lib/rowControllers/inMemory/sortStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRendererService.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRendererService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/filter/numberFilter.js" afterPath="$PROJECT_DIR$/dist/lib/filter/numberFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ag-grid.js" afterPath="$PROJECT_DIR$/dist/ag-grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/tabbedLayout.js" afterPath="$PROJECT_DIR$/dist/lib/layout/tabbedLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iMenu.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iMenu.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/valueService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/valueService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/entities/columnGroupChild.d.ts" afterPath="$PROJECT_DIR$/dist/lib/entities/columnGroupChild.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iEventEmitter.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iEventEmitter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerContainer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerContainer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/components/agGridNg1.js" afterPath="$PROJECT_DIR$/dist/lib/components/agGridNg1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iContextMenuFactory.d.ts" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iContextMenuFactory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupSelectCellEditor.js" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellEditors/popupSelectCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/interfaces/iMenu.js" afterPath="$PROJECT_DIR$/dist/lib/interfaces/iMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/headerTemplateLoader.d.ts" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/headerTemplateLoader.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/headerRendering/cssClassApplier.js" afterPath="$PROJECT_DIR$/dist/lib/headerRendering/cssClassApplier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragService.d.ts" afterPath="$PROJECT_DIR$/dist/lib/dragAndDrop/dragService.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/columnController/columnKeyCreator.d.ts" afterPath="$PROJECT_DIR$/dist/lib/columnController/columnKeyCreator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/layout/verticalStack.d.ts" afterPath="$PROJECT_DIR$/dist/lib/layout/verticalStack.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateShowChangeCellRenderer.d.ts" afterPath="$PROJECT_DIR$/dist/lib/rendering/cellRenderers/animateShowChangeCellRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lib/events.d.ts" afterPath="$PROJECT_DIR$/dist/lib/events.d.ts" />
+    </list>
+    <ignored path="ag-grid.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ag-grid" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="gridApi.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1870">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="virtualPageRowModel.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2176">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_TAGS" value="true" />
+    <option name="ONTO" value="refs/tags/4.2.5" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f8e67d48d5ba813be432a0ecd13301419847e567" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Documents/eocs" value="34294209215689" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ts/gridPanel/gridPanel.ts" />
+        <option value="$PROJECT_DIR$/src/ts/rendering/renderedRow.ts" />
+        <option value="$PROJECT_DIR$/src/ts/rowControllers/inMemory/inMemoryRowController.ts" />
+        <option value="$PROJECT_DIR$/dist/ag-grid.js" />
+        <option value="$PROJECT_DIR$/src/ts/interfaces/iRowModel.ts" />
+        <option value="$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowController.ts" />
+        <option value="$PROJECT_DIR$/src/ts/gridApi.ts" />
+        <option value="$PROJECT_DIR$/src/ts/rowControllers/paginationController.ts" />
+        <option value="$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts" />
+        <option value="$PROJECT_DIR$/dist/lib/rowControllers/paginationController.d.ts" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1929" />
+    <option name="y" value="-129" />
+    <option name="width" value="1938" />
+    <option name="height" value="1180" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ag-grid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eocs" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ag-grid" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="ag-grid" />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>C:/Program Files/nodejs/node.exe</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ag-grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c095e717-b741-4f4f-af65-53758c635804" name="Default" comment="" />
+      <created>1457007614369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1457007614369</updated>
+      <workItem from="1457007615521" duration="416000" />
+      <workItem from="1457938342196" duration="5495000" />
+      <workItem from="1458020093954" duration="1377000" />
+      <workItem from="1458031907180" duration="10922000" />
+      <workItem from="1458106409975" duration="9088000" />
+      <workItem from="1463033876879" duration="6478000" />
+      <workItem from="1464605993022" duration="223000" />
+      <workItem from="1464606303252" duration="16000" />
+      <workItem from="1464606348684" duration="1206000" />
+      <workItem from="1464607815781" duration="34000" />
+      <workItem from="1464612118496" duration="4000" />
+      <workItem from="1469443182671" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="Moved compiling of Rows after processRowPostCreate Callback">
+      <created>1457938766229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457938766229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DisableBrowserDragging only if target is of type HTMLImageElement">
+      <created>1457947988183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457947988183</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[FEAT] reloading whole page">
+      <created>1458111928503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458111928503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[FEAT] reloading whole page from datasource">
+      <created>1458115379294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458115379294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added reloadPage to API">
+      <created>1463045275075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1463045275075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35265000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1929" y="-129" width="1938" height="1180" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942328" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49571276" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28866994" sideWeight="0.4892819" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28916308" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20066519" sideWeight="0.49785638" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Moved compiling of Rows after processRowPostCreate Callback" />
+    <MESSAGE value="DisableBrowserDragging only if target is of type HTMLImageElement" />
+    <MESSAGE value="[FEAT] reloading whole page" />
+    <MESSAGE value="[FEAT] reloading whole page from datasource" />
+    <MESSAGE value="added reloadPage to API" />
+    <option name="LAST_COMMIT_MESSAGE" value="added reloadPage to API" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowController.ts" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowController.js" />
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowController.ts" />
+    <entry file="file://$PROJECT_DIR$/src/ts/gridPanel/gridPanel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rendering/renderedRow.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridPanel/gridPanel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rendering/renderedRow.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rendering/renderedRow.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridPanel/gridPanel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/components/componentUtil.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/inMemory/inMemoryRowController.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/nib/Readme.md" />
+    <entry file="file://$PROJECT_DIR$/spec/columnController/columnControllerTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/lib/rowControllers/inMemory/inMemoryRowController.js" />
+    <entry file="file://$PROJECT_DIR$/dist/lib/interfaces/iRowModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowController.ts" />
+    <entry file="file://$PROJECT_DIR$/src/ts/interfaces/iRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/paginationController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/rowControllers/virtualPageRowModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/lib/rowControllers/paginationController.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/gridApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
